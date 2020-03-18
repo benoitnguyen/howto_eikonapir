@@ -56,3 +56,44 @@ eurlast <- get_data(list("EUR="),
                fields=list("TR.TIMESTAMP","CF_LAST"))
 ```
 
+# List of tested RIC and definition
+
+| RIC               |  | Def                                                            |
+|-------------------|--|----------------------------------------------------------------|
+|                   |  |                                                                |
+| EUIL5YF5Y=R       |  | Eur 5y5y ILS                                                   |
+| USIL5YF5Y=R       |  | US 5y5y ILS                                                    |
+|                   |  |                                                                |
+| .FCHI             |  | CAC40                                                          |
+| .STOXX50E         |  | eurostoxx                                                      |
+| .SX7E             |  | eurostoxx banks                                               |
+| .EUR              |  | eurusd                                                         |
+|                   |  |                                                                |
+| DE2YT=RR          |  | Germany 2y yield                                               |
+| FR2YT=RR          |  | -                                                              |
+| IT2Y=RR           |  | -                                                              |
+| ES2YT=RR          |  | -                                                              |
+| US2YT=RR          |  | -                                                              |
+| JP2Y=RR           |  |                                                                |
+| DE10YT=RR         |  | Germany 10y yield                                              |
+| FR10YT=RR         |  | -                                                              |
+| IT10Y=RR          |  | -                                                              |
+| ES10YT=RR         |  | -                                                              |
+| US10YT=RR         |  | -                                                              |
+| JP10Y=RR          |  |                                                                |
+|                   |  |                                                                |
+| EURIBOR3MD=       |  | Euribor 3m                                                     |
+|                   |  |                                                                |
+| FRGV5YUSAC=R      |  | CDS France                                                     |
+| ITGV5YUSAC=R      |  | Italy                                                          |
+| ESGV5YUSAC=R      |  | Spain                                                          |
+| DEGV5YUSAC=R      |  | Germany                                                        |
+|                   |  |                                                                |
+| .VIX              |  | VIX                                                            |
+| .V2TX             |  | VSTOXX                                                         |
+|                   |  |                                                                |
+| EUREON1M=BRKR"    |  | EUR OIS 1month                                                 |
+| to                |  |                                                                |
+|  "EUREON10Y=BRKR" |  | EUR OIS 10year                                                 |
+|                   |  |                                                                |
+| USDAM3L2Y=        |  | US DOLLAR 2 YEAR INTEREST RATE SWAP (underlying: 3month LIBOR) |
