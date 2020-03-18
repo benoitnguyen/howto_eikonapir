@@ -1,6 +1,7 @@
 # howto_eikonapir
 
 Working examples to download timeseries from Eikon **in R**. This uses a community-developped package https://github.com/ahmedmohamedali/eikonapir
+
 There's also an official package supported by Eikon for Python here: https://developers.refinitiv.com/eikon-apis/eikon-data-api/quick-start
 
 **Note for BdF colleagues: Works from home for me on my own computer**. 
